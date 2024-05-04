@@ -110,11 +110,12 @@ header nav a:hover{
   width: 90%;
   margin: auto;
   margin-bottom: 40px;
+  
 
 }
 .destination{
   margin: 0 20px;
-
+  text-transform: uppercase;
   width:25% ;
   
 }
@@ -134,4 +135,19 @@ header nav a:hover{
 }
 .destination strong{
   color:#1fc38a;
+}
+#footer{
+  height: 50px;
+  background-color: black;
+
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+#footer i {
+  font-size: 40px;
+  margin-left: 40px;
+  color: aliceblue;
 }
